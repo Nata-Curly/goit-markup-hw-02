@@ -46,8 +46,10 @@ color: var(--color-action);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    }
+.link-nav {
     color: var(--color-primery);
-}
+}    
 .link-nav:hover, .link-nav:focus, .link-nav:active {
     color: var(--color-action);
 }
@@ -109,14 +111,12 @@ color: var(--color-action);
     margin: -1px;
 }
 .feature-title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .feature-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -129,7 +129,6 @@ color: var(--color-action);
     background-color: var(--color-background-primery);
 }
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -143,6 +142,10 @@ color: var(--color-action);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+.team-img {
+width: 270px;
+height: 260px;
+}
 .teammate-name {
     font-weight: 500;
     font-size: 16px;
@@ -151,7 +154,6 @@ color: var(--color-action);
     letter-spacing: 0.03em;
 }
 .teammate-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -179,13 +181,11 @@ color: var(--color-action);
     border: 1px solid var(--color-button-border);
 }
 .project-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 .project-type {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -208,7 +208,6 @@ color: var(--color-action);
 }
 .address {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
